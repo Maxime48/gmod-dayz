@@ -1,0 +1,9 @@
+"Gamemode"
+{
+	"base"		"sandbox"
+	"title"		"Gmod Day-Z"
+	"name"		"Gmod Day-Z"
+
+	"menusystem"	"1"
+}
+ 

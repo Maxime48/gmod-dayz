@@ -1,0 +1,11 @@
+ITEM = {}
+ITEM.Name = "Potato"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Food for the Irish."
+ITEM.Model = "models/props_phx/misc/potato.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 30
+ITEM.SpawnChance = 55
+ITEM.SpawnOffset = Vector(0,0,3)
+ITEM.EatFor = 10

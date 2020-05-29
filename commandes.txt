@@ -1,0 +1,53 @@
+NOTE: You may need a Admin mod such as ULX or Evolve to issue these commands as GMod DayZ does not come with an built in admin mod.
+
+These commands work in your in-game console, not the servers.
+
+Commands prefixed with * are Super-Admin only.
+
+Commands that also work in the server console are prefixed with ^.
+
+NOTE: Player names are searched, so you can supply part of or all of a name.
+
+Setup Commmands:
+
+*dz_setinitialspawn - Sets the initial player spawn-point (where players spawn before they load/create character, a safe place)
+*dz_setszteleportpos - Sets the safezone teleport position. Used if teleporting is enabled, or the player is brand new (spawn in safezone)
+Generic Commmands:
+
+dz_configmenu - Opens the server configuration menu. Most config options are editable from here. Admins can view, Superadmins can edit.
+*dz_givemenu - Opens a menu that SuperAdmins can give themselves items from for "debugging" purposes.
+*dz_reloadconfig - Reloads the server config. This is automatically done and should only be used as a fallback method if you manually edit the file.
+^*dz_reloaditems - Reloads all items on both server and clients. This is in-case you live edit your items.
+dz_maketrader /1 - Spawns a shop npc (or vip npc) at your location/angles. No arguments for non-vip trader.
+*dz_makezombie - Spawns a zombie where you are looking.
+*dz_makevehicle - Spawns a vehicle where you are looking.
+^dz_changeshop - Refreshes the items in the store.
+^dz_reloadsafezones - Reloads the safezones from the data files. Useful if you live edit.
+^dz_reloadradzones - Like the above, for radiation zones.
+^dz_reloadzombies - Reloads the NPC information, and respawns all NPCs (Will be renamed to dz_reloadnpcs in a future update!)
+
+dz_makeinteractable 1/2/3/4 -- Spawns either a campfire, an upgrade table, a safezone teleporter or a practice arena teleporter entity at the position you are looking.
+dz_turnlootable - Turns the prop you are looking at into a lootable entity.
+dz_turnprop - Reverses the above action.
+^dz_makecarepackage - Spawns a carepackage in the sky above where you are looking.
+dz_toolgun - Gives you a toolgun. Rainbows.
+wepswitch weapon_physgun - Gives you a physgun.
+dz_printprop - Prints the model, position and angle of the prop you are looking at.
+dz_printitems - Prints all of the items available in the gamemode by category. 
+
+Player-Specific Commands:
+
+^dz_sethealth "player_name" amount - Set the targeted players health.
+^dz_sethunger "player_name" amount - Set the targeted players hunger.
+^dz_setthirst "player_name" amount - Set the targeted players thirst.
+*^dz_giveitem "item_id" amount "player_name" quality rarity - Gives an item of that amount. Quality (1-1000); Rarity (1-7) ( No name will give it to you, server console requires part, or all of name. )
+*^dz_giveammo "player_name" amount -- Gives ammo for the currently held weapon.
+*^dz_resetplayer "player_name" - Completely reset the player including their items, inventory and bank.
+*^dz_giveallblueprints "player_name" - Gives the specified player all blueprints.
+*^dz_removeallblueprints "player_name" - Removes every blueprint the player has.
+^dz_maxneeds "player_name" - Maxes the hunger, thirst, health and blood of the player.
+dz_who "searchnick" - Outputs information about connected players. Also searches for player with nickname(admin only) 
+Steamid-Specific Commands
+
+*^dz_resetid "steamid" - Completely reset the player including their items, inventory and bank; steamid edition, in case they disconnect!
+*^dz_giveitemid "item_id" amount "steamid" quality rarity - Give the item that has been specified with also the amount that has been specified to the players STEAM ID.

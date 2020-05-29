@@ -1,0 +1,15 @@
+ITEM = {}
+ITEM.Name = "Kevlar Armor"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "\"advanced as fuck\" armor."
+ITEM.Model = "models/combine_helicopter/bomb_debris_3.mdl"
+ITEM.Weight = 10
+ITEM.Price = 1000
+ITEM.BodyArmor = 100
+ITEM.SpawnChance = 1
+ITEM.LevelReq = 25
+ITEM.NoGiveOnBreak = true
+ITEM.ReqCraft = { "item_ironbar", "item_ironbar", "item_plastic", "item_plastic", "item_armor_iron" }
+ITEM.LootType = { "Weapon" }
+ITEM.SpawnOffset = Vector(0,0,3.5)
+ITEM.Rarity = 1

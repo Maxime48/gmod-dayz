@@ -1,0 +1,12 @@
+ITEM = {}
+ITEM.Name = "Keypad"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "A keypad with an access code that opens a lootbox of the same rarity"
+ITEM.Model = "models/props_lab/keypad.mdl"
+ITEM.Color = Color(255, 200, 0, 255)
+ITEM.Weight = 1
+ITEM.Price = 420
+ITEM.DontStock = true
+ITEM.SpawnChance = 90
+ITEM.SpawnOffset = Vector(0,0,4)
+ITEM.Rarity = 1

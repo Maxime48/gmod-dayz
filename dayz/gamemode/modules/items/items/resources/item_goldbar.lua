@@ -1,0 +1,17 @@
+ITEM = {}
+ITEM.Name = "Gold Bar"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "A hunk of Gold!"
+ITEM.Model = "models/gml/gold_bar_large.mdl"
+ITEM.Material = "models/shiny"
+ITEM.Color = Color(255, 200, 0, 255)
+ITEM.Weight = 1
+ITEM.Category = ""
+ITEM.SellPrice = 1000	
+ITEM.SpawnChance = -1
+ITEM.IsCurrency = true
+ITEM.SpawnOffset = Vector(0,0,4)
+ITEM.NoBlueprint = true
+ITEM.CantDecompile = true
+ITEM.ReqCraft = { "item_goldore", "item_goldore", "item_goldore" }
+ITEM.Rarity = 1

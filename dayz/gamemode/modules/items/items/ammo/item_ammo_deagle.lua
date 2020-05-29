@@ -1,0 +1,16 @@
+ITEM = {}
+ITEM.Name = ".50 AE"
+ITEM.Angle = Angle(90,90,90)
+ITEM.Desc = ".50 Caliber Rounds for the Desert Eagle."
+ITEM.Model = "models/items/357ammobox.mdl"
+ITEM.Color = Color(0, 0, 255, 255)
+ITEM.Weight = 0
+ITEM.SpawnChance = 25
+ITEM.SpawnOffset = Vector(0,0,1)
+ITEM.LootType = { "Weapon" }
+ITEM.ClipSize = 7
+ITEM.AmmoType = ".50 AE"
+ITEM.NoBlueprint = true
+ITEM.TimeToProcess = 1
+ITEM.ReqCraft = { "item_bulletcasing2", "item_gunpowder", "item_gunpowder" }
+ITEM.Rarity = 1

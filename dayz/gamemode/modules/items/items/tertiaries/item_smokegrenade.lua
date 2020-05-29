@@ -1,0 +1,17 @@
+ITEM = {}
+ITEM.Name = "Smoke Grenade"
+ITEM.Angle = Angle(90,90,90)
+ITEM.Desc = "Throw to tactically make a smokescreen"
+ITEM.Model = "models/weapons/w_eq_smokegrenade_thrown.mdl"
+ITEM.Weight = 5
+ITEM.SpawnChance = 5
+ITEM.SpawnOffset = Vector(0,0,1)
+ITEM.SpawnAngle = Angle(0,0,90)
+ITEM.LootType = { "Weapon" }
+ITEM.AmmoType = "Smoke Grenades"
+ITEM.Gun = true
+ITEM.LevelReq = 5
+ITEM.Tertiary = true
+ITEM.ReqCraft = { "item_fuse", "item_gunpowder_ref", "item_grainalcohol", "item_plastic", "item_emptycan" }
+ITEM.Weapon = "cw_smoke_grenade"
+ITEM.Rarity = 1

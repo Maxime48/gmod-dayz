@@ -1,0 +1,9 @@
+
+{
+	"Host": "127.0.0.1",
+	"DBName": "dbname",
+	"Pass": "password",
+	"User": "username",
+	"Port": 3306,
+	"DBModule": "mysqloo"
+}

@@ -1,0 +1,13 @@
+ITEM = {}
+ITEM.Name = "Iron Ore"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Freshly mined iron ore!"
+ITEM.Model = "models/dayz/misc/dayz_mineralrock.mdl"
+ITEM.Skin = 1
+ITEM.Weight = 0.1
+ITEM.Price = 22	
+ITEM.SpawnChance = -1
+ITEM.CantCraft = true
+ITEM.SpawnOffset = Vector(0,0,4)
+ITEM.UsedInCrafting = true
+ITEM.Rarity = 1

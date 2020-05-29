@@ -1,0 +1,14 @@
+ITEM = {}
+ITEM.Name = "Cooking Pot"
+ITEM.Angle = Angle(-180,-90,-90)
+ITEM.Desc = "Junk. Previous cooking utensil."
+ITEM.Model = "models/props_c17/metalPot001a.mdl"
+ITEM.Weight = 1
+ITEM.Hat = true
+ITEM.HatPos = Vector(0, 0, 0)
+ITEM.HatAng = Angle(0, 0, 0)
+ITEM.LootType = { "Hat" }
+ITEM.SpawnChance = 40
+ITEM.SpawnOffset = Vector(0,0,5)
+ITEM.ReqCraft = { "item_metal", "item_metal", "item_metal", "item_wood" }
+ITEM.Rarity = 1

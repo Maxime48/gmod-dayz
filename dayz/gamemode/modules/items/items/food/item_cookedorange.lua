@@ -1,0 +1,16 @@
+ITEM = {}
+ITEM.Name = "Cooked Orange"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Color = Color(100,100,100)
+ITEM.Desc = "I'm in the middle of no- Ooh a cooked orange."
+ITEM.Model = "models/tsbb/fruits/orange.mdl"
+ITEM.Weight = 0.5
+ITEM.Price = 30
+ITEM.LootType = { "Food" }
+ITEM.SpawnChance = 5 -- Out of 100
+ITEM.NoBlueprint = true
+ITEM.SpawnOffset = Vector(0,0,7)
+ITEM.TimeToProcess = 5
+ITEM.EatFor = 15
+ITEM.ReqCook = { "item_food4" }
+ITEM.Rarity = 1

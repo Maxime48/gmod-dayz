@@ -1,0 +1,10 @@
+ITEM = {}
+ITEM.Name 		 =  "Penis"
+ITEM.Desc 		 =  "Eat a bag of dicks."
+ITEM.Angle		 =  Angle(0,0,0)
+ITEM.Model		 =  "models/Gibs/HGIBS_spine.mdl"
+ITEM.Color 		 =  Color(255, 0, 190)
+ITEM.Weight	     =  0
+ITEM.SpawnChance =  -1
+ITEM.EatFor = 6.9
+ITEM.SpawnOffset =  Vector(0,0,3.5)

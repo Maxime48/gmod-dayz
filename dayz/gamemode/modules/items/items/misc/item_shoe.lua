@@ -1,0 +1,11 @@
+ITEM = {}
+ITEM.Name = "Shoe"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Where is the left shoe I wonder?..."
+ITEM.Model = "models/props_junk/Shoe001a.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Basic" }
+ITEM.Price = 15
+ITEM.CanIgnite = true
+ITEM.SpawnChance = 55
+ITEM.SpawnOffset = Vector(0,0,4)

@@ -1,0 +1,16 @@
+ITEM = {}
+ITEM.Name = "7.62x51mm"
+ITEM.Angle = Angle(90,90,90)
+ITEM.Desc = "7.62x51mm Rounds."-- The description
+ITEM.Model = "models/Items/BoxSRounds.mdl"
+ITEM.Color = Color(255, 127, 127, 255)
+ITEM.Weight = 0
+ITEM.SpawnChance = 25 -- Out of 100	
+ITEM.SpawnOffset = Vector(0,0,1)
+ITEM.LootType = { "Weapon" }
+ITEM.ClipSize = 20
+ITEM.AmmoType = "7.62x51MM"
+ITEM.NoBlueprint = true
+ITEM.TimeToProcess = 1
+ITEM.ReqCraft = { "item_bulletcasing", "item_gunpowder", "item_gunpowder" }
+ITEM.Rarity = 1

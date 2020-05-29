@@ -1,0 +1,11 @@
+ITEM = {}
+ITEM.Name		 =  "Bills" -- The Name of the ITEM. Viewable in the menu.
+ITEM.Desc 		 =  "The post apocalyptic currency at it's finest." -- The description that appears in the menu.
+ITEM.Angle		 =  Angle(0,0,0)
+ITEM.Model		 =  "models/pyroteknik/stack.mdl"
+ITEM.Weight	     =  0
+ITEM.SpawnChance =  -1
+ITEM.SpawnOffset =  Vector(0,0,3.5)
+ITEM.IsCurrency = true
+ITEM.Rarity = 1
+ITEM.DontStock = true

@@ -1,0 +1,13 @@
+ITEM = {}
+ITEM.Name = "Scavenger"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Items are picked up 50% quicker - Tap E to collect items"
+ITEM.Model = "models/tsbb/fruits/banana.mdl"
+ITEM.Color = Color(255, 210, 0)
+ITEM.Material = "models/shiny"
+ITEM.Weight = 0
+ITEM.Credits = 1000
+ITEM.SpawnChance = -1
+ITEM.SpawnOffset = Vector(0,0,3.5)
+ITEM.NoConsumeFromFloor = true
+ITEM.ProcessFunction = function(ply, item, class) ply:GivePerk(class) end

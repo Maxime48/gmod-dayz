@@ -1,0 +1,15 @@
+ITEM = {}
+ITEM.Name		 =  "Credits"
+ITEM.Desc 		 =  "Convertible exclusive currency at the trader. Does not drop on death."
+ITEM.Angle 		 =  Angle(0,0,0)
+ITEM.Model		 =  "models/freeman/cyb_hexagon_small.mdl"
+ITEM.Color 		 =  Color(41, 128, 185)
+ITEM.Weight	     =  0
+ITEM.SpawnChance =  -1
+ITEM.Price = 50
+ITEM.SellPrice = 50
+--ITEM.DontStock = true
+ITEM.IsCurrency = true
+ITEM.Modelscale = 0.3
+ITEM.SpawnOffset =  Vector(0,0,3.5)
+ITEM.Rarity = 3

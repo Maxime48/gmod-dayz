@@ -1,0 +1,17 @@
+ITEM = {}
+ITEM.Name = "Pills (Anti-Radiation)"
+ITEM.Angle = Angle(0,0,2)
+ITEM.Desc = "A small bottle of pills reading 'Potassium Iodide'. (Anti-Radiation)"
+ITEM.Model = "models/w_models/weapons/w_eq_painpills.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Basic", "Medical" }
+ITEM.Price = 300
+ITEM.HealsFor = 2
+ITEM.RadsFor = -25
+ITEM.Color = Color(255,190,0,255)
+ITEM.SpawnChance = 5
+ITEM.ViewAngle = Angle(0,-110,0)
+ITEM.SpawnOffset = Vector(0,0,0)
+ITEM.ReqCook = { "item_aloecream", "item_saltpeter", "item_sulfur", "item_medic4" }
+ITEM.Rarity = 1
+ITEM.LevelReq = 9

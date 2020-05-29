@@ -1,0 +1,14 @@
+ITEM = {}
+ITEM.Name = "Corn Meal"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "A bag of Corn Meal."
+ITEM.Model = "models/dayz/cooking/dayz_cornmeal.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 25
+ITEM.SpawnChance = 10
+ITEM.SpawnOffset = Vector(0,0,6)
+ITEM.TimeToProcess = 5
+ITEM.NoBlueprint = true
+ITEM.EatFor = 5
+ITEM.ReqCook = { "item_wheat", "item_wheat" }

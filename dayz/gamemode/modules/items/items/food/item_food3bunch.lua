@@ -1,0 +1,13 @@
+ITEM = {}
+ITEM.Name = "Tomato"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "'Hold on. The cats, they are eating my tomatoes again!' - Mr.Frenzoid 2014"
+ITEM.Model = "models/tsbb/fruits/tomato.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 30
+ITEM.SpawnChance = 55
+ITEM.SpawnOffset = Vector(0,0,3)
+ITEM.EatFor = 10
+ITEM.ReqCraft = { "item_plantfibre","item_plantfibre" }
+ITEM.CantCraft = true

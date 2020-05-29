@@ -1,0 +1,13 @@
+ITEM = {}
+ITEM.Name = "Paper Hat"
+ITEM.Angle = Angle(-180,-90,-90)
+ITEM.Desc = "Get festive, get jiggy."
+ITEM.Model = "models/cloud/kn_paperhat_red.mdl"
+ITEM.Weight = 1
+ITEM.Hat = true
+ITEM.LootType = { "Hat" }
+ITEM.SpawnChance = -1
+ITEM.SpawnOffset = Vector(0,0,5)
+ITEM.Rarity = 1
+ITEM.CantCraft = true
+ITEM.SellPrice = 2000

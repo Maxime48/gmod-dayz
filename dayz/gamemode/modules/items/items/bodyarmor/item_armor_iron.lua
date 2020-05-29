@@ -1,0 +1,15 @@
+ITEM = {}
+ITEM.Name = "Iron Armor"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Advanced armor."
+ITEM.Model = "models/combine_helicopter/bomb_debris_3.mdl"
+ITEM.Weight = 5
+ITEM.Price = 1000
+ITEM.BodyArmor = 80
+ITEM.SpawnChance = 1
+ITEM.LevelReq = 11
+ITEM.NoGiveOnBreak = true
+ITEM.ReqCraft = { "item_ironbar", "item_ironbar", "item_armor_copper" }
+ITEM.LootType = { "Weapon" }
+ITEM.SpawnOffset = Vector(0,0,3.5)
+ITEM.Rarity = 1

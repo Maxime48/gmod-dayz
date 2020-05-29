@@ -1,0 +1,16 @@
+ITEM = {}
+ITEM.Name = "M3 Super 90"
+ITEM.Angle = Angle(90,90,90)
+ITEM.Desc = ""
+ITEM.Model = "models/weapons/w_cstm_m3super90.mdl"
+ITEM.Weight = 45
+ITEM.SpawnChance = 2
+ITEM.SpawnOffset = Vector(0,0,1)
+ITEM.SpawnAngle = Angle(0,0,90)
+ITEM.LootType = { "Weapon" }
+ITEM.Gun = true
+ITEM.Primary = true
+ITEM.LevelReq = 9
+ITEM.Craftable = true
+ITEM.ReqCraft = { "item_part_a", "item_part_c", "item_part_b", "item_part_a", "item_part_e" }
+ITEM.Weapon = "cw_m3super90"

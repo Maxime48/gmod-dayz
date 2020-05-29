@@ -1,0 +1,15 @@
+ITEM = {}
+ITEM.ID = "item_plantfibre"
+ITEM.Name = "Plant Fibre"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Not to be mistaken for Special K."
+ITEM.Model = "models/gibs/antlion_gib_small_1.mdl"
+ITEM.Color = Color(0, 255, 0)
+ITEM.Material = "models/props_c17/FurnitureMetal001a"
+ITEM.Weight = 0.1
+ITEM.Price = 20
+ITEM.SpawnChance = -1
+ITEM.CantDecompile = true
+ITEM.GivePer = 2
+ITEM.SpawnOffset = Vector(0,0,4)
+ITEM.CantCraft = true

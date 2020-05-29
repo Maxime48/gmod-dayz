@@ -1,0 +1,13 @@
+ITEM = {}
+ITEM.Name = "Gunpowder"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "A mixture of sulfur, charcoal and saltpeter."
+ITEM.Model = "models/props_lab/jar01a.mdl"
+ITEM.Color = Color(80, 0, 0)
+ITEM.Weight = 0.1
+ITEM.LootType = { "Weapon" }
+ITEM.Price = 10
+ITEM.NoBlueprint = true
+ITEM.ReqCraft = {"item_charcoal", "item_saltpeter", "item_sulfur"}
+ITEM.SpawnChance = 40
+ITEM.SpawnOffset = Vector(0,0,4)

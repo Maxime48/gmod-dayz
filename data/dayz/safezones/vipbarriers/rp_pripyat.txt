@@ -1,0 +1,15 @@
+
+{
+	"1": 
+	{
+		"ang": "{90 -180 180}",
+		"pos": "[-2544.0105 -11142 -79.69]",
+		"mdl": "models/hunter/plates/plate2x6.mdl"
+	},
+	"2": 
+	{
+		"ang": "{90 -180 180}",
+		"pos": "[-2544.0105 -11142 -195.09]",
+		"mdl": "models/hunter/plates/plate2x6.mdl"
+	}
+}

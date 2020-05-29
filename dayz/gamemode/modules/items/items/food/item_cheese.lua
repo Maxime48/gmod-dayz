@@ -1,0 +1,14 @@
+ITEM = {}
+ITEM.Name = "Cheese"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Cheese Gromit, Cheese!"
+ITEM.Model = "models/weapons/c_items/c_bread_cornbread.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 25
+ITEM.SpawnChance = 20
+ITEM.SpawnOffset = Vector(0,0,6)
+ITEM.TimeToProcess = 5
+ITEM.ReqCook = { "item_rennet", "item_cream", "item_cream" }
+ITEM.NoFire = true
+ITEM.EatFor = 10

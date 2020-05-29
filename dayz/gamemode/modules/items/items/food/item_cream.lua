@@ -1,0 +1,13 @@
+ITEM = {}
+ITEM.Name = "Cream"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Mmmmm Creamy!"
+ITEM.Model = "models/props_junk/garbage_milkcarton001a.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 25
+ITEM.SpawnChance = 15
+ITEM.SpawnOffset = Vector(0,0,6)
+ITEM.TimeToProcess = 5
+ITEM.EatFor = 5
+ITEM.ReqCook = { "item_drink3", "item_drink3", "item_drink3" }

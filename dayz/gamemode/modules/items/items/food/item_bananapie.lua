@@ -1,0 +1,16 @@
+ITEM = {}
+ITEM.Name = "Pie (Banana)"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "A Banana Pie. "
+ITEM.Model = "models/theforgottenarchitect/pie.mdl"
+ITEM.Skin = 1
+ITEM.Color = Color(180, 180, 0)
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 25
+ITEM.SpawnChance = 1
+ITEM.SpawnOffset = Vector(0,0,6)
+ITEM.TimeToProcess = 5
+ITEM.ReqCook = { "item_emptypie", "item_food3", "item_food3" }
+ITEM.EatFor = 35
+ITEM.Rarity = 1

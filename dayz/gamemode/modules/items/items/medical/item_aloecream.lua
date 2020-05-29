@@ -1,0 +1,13 @@
+ITEM = {}
+ITEM.Name = "AloeCream"
+ITEM.Angle = Angle(0,0,2)
+ITEM.Desc = "Medical balm for treating lacerations."
+ITEM.Model = "models/props_junk/glassjug01.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Basic", "Medical" }
+ITEM.BloodFor = 6
+ITEM.SpawnChance = 25
+ITEM.SpawnOffset = Vector(0,0,0)
+ITEM.TimeToProcess = 5
+ITEM.ReqCraft = { "item_plantfibre", "item_plantfibre", "item_plantfibre", "item_plantfibre", "item_plantfibre" }
+ITEM.Rarity = 1

@@ -1,0 +1,15 @@
+ITEM = {}
+ITEM.Name = "Bread Slice"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "A slice of bread."
+ITEM.Model = "models/weapons/c_items/c_bread_burnt.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.SellPrice = 19
+ITEM.SpawnChance = 10
+ITEM.SpawnOffset = Vector(0,0,6)
+ITEM.ReqCook = { "item_bread" }
+ITEM.GivePer = 5
+ITEM.TimeToProcess = 2
+ITEM.NoFire = true
+ITEM.EatFor = 6

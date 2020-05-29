@@ -1,0 +1,14 @@
+ITEM = {}
+ITEM.Name = "Crumpet"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Tea and Crumpets. Lovely!"
+ITEM.Model = "models/weapons/c_items/c_bread_crumpet.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 25
+ITEM.SpawnChance = 10
+ITEM.SpawnOffset = Vector(0,0,6)
+ITEM.TimeToProcess = 5
+ITEM.ReqCook = { "item_cornmeal", "item_egg", "item_water" }
+ITEM.EatFor = 15
+ITEM.Rarity = 1

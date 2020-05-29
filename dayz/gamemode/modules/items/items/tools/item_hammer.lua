@@ -1,0 +1,15 @@
+ITEM = {}
+ITEM.Name = "Hammer"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Percussive maintenance at it's best!\n[RMB] to nail things like barricades.\n[R] to remove nails."
+ITEM.Model = "models/weapons/w_dangerzone_hammer.mdl"
+ITEM.Color = Color(255,255,255)
+ITEM.Weight = 5
+ITEM.LootType = { "Industrial" }
+ITEM.SpawnChance = 5
+ITEM.Weapon = "weapon_hammer"
+ITEM.NoBlueprint = true
+ITEM.Tertiary = true
+ITEM.SpawnOffset = Vector(0,0,4)
+ITEM.ReqCraft = { "item_ironbar", "item_ironbar", "item_plank" }
+ITEM.Rarity = 1

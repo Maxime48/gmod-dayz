@@ -1,0 +1,14 @@
+ITEM = {}
+ITEM.Name = "Orange"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "I'm in the middle of no- Ooh an orange."
+ITEM.Model = "models/tsbb/fruits/orange.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 30
+ITEM.SpawnChance = 55
+ITEM.SpawnOffset = Vector(0,0,3)
+ITEM.EatFor = 5
+ITEM.DrinkFor = 5
+ITEM.ReqCraft = { "item_plantfibre","item_plantfibre" }
+ITEM.CantCraft = true

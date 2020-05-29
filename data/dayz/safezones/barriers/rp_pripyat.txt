@@ -1,0 +1,9 @@
+
+{
+	"1": 
+	{
+		"ang": "{90 90 180}",
+		"pos": "[1947 -366 124]",
+		"mdl": "models/hunter/plates/plate2x6.mdl"
+	}
+}

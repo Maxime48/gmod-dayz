@@ -1,0 +1,17 @@
+ITEM = {}
+ITEM.Name = "Pills (Anti-Sickness)"
+ITEM.Angle = Angle(0,0,2)
+ITEM.Desc = "It reads 'Tetracycline, used to treat sickness'"
+ITEM.HealsFor = 20
+ITEM.Model = "models/w_models/weapons/w_eq_painpills.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Medical" }
+ITEM.Color = Color(127,255,127,255)
+ITEM.Price = 200
+ITEM.SpawnChance = 10
+ITEM.ViewAngle = Angle(0,-110,0)
+ITEM.SpawnOffset = Vector(0,0,0)
+ITEM.ReqCook = { "item_aloecream", "item_aloecream", "item_medic1" }
+ITEM.ProcessFunction = function(ply, item) ply:SetSick(false) end
+ITEM.Rarity = 1
+ITEM.LevelReq = 5

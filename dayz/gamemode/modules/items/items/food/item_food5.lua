@@ -1,0 +1,12 @@
+ITEM = {}
+ITEM.Name = "Fish"
+ITEM.Angle = Angle(0,0,2)
+ITEM.Desc = "Aint nothing like a fish outta water."
+ITEM.Model = "models/props/cs_militia/fishriver01.mdl"
+ITEM.Weight = 1
+ITEM.Price = 45
+ITEM.LootType = { "Food" }
+ITEM.SpawnChance = -1
+ITEM.SpawnOffset = Vector(0,0,1)
+ITEM.SpawnAngle = Angle(0,0,90)
+ITEM.EatFor = 10

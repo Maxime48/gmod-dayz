@@ -1,0 +1,13 @@
+ITEM = {}
+ITEM.Name = "Apple"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Eat this to restore hunger."
+ITEM.Model = "models/theforgottenarchitect/apple.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 25
+ITEM.SpawnChance = 90
+ITEM.SpawnOffset = Vector(0,0,6)
+ITEM.EatFor = 10
+ITEM.ReqCraft = { "item_plantfibre","item_plantfibre" }
+ITEM.CantCraft = true

@@ -1,0 +1,14 @@
+ITEM = {}
+ITEM.Name = "Iron Bar"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "A hunk of Iron."
+ITEM.Model = "models/gml/gold_bar_large.mdl"
+ITEM.Material = "models/shiny"
+ITEM.Color = Color(67, 67, 67, 255)
+ITEM.Weight = 1
+ITEM.SpawnChance = 25
+ITEM.SpawnOffset = Vector(0,0,4)
+ITEM.NoBlueprint = true
+ITEM.CantDecompile = true
+ITEM.ReqCraft = { "item_metal", "item_metal", "item_metal" }
+ITEM.Rarity = 1

@@ -1,0 +1,14 @@
+ITEM = {}
+ITEM.Name = "Cheese on Toast"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "A slice of bread with added cheese!"
+ITEM.Model = "models/weapons/c_items/c_bread_cinnamon.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 25
+ITEM.SpawnChance = 10
+ITEM.SpawnOffset = Vector(0,0,6)
+ITEM.TimeToProcess = 5
+ITEM.ReqCook = { "item_breadslice", "item_cheese" }
+ITEM.EatFor = 16
+ITEM.Rarity = 1

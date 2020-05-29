@@ -1,0 +1,17 @@
+ITEM = {}
+ITEM.Name = "CZ 52"
+ITEM.Angle = Angle(90,90,90)
+ITEM.Desc = ""
+ITEM.Model = "models/khrcw2/pistols/w_cz52.mdl"
+ITEM.Weight = 20
+ITEM.SpawnChance = 5
+ITEM.SpawnOffset = Vector(0,0,1)
+ITEM.SpawnAngle = Angle(0,0,90)
+ITEM.LootType = { "Weapon" }
+ITEM.Gun = true
+ITEM.Secondary = true
+ITEM.Craftable = true
+ITEM.LevelReq = 5
+ITEM.ReqCraft = { "item_part_b", "item_part_f", "item_ironbar" }
+ITEM.Weapon = "khr_cz52"
+ITEM.Rarity = 4

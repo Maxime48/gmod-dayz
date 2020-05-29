@@ -1,0 +1,14 @@
+ITEM = {}
+ITEM.Name = "Pepperoni Pizza"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "O.M.G. x2"
+ITEM.Model = "models/griim/foodpack/pepperonipizza.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 25
+ITEM.SpawnChance = 5
+ITEM.SpawnOffset = Vector(0,0,6)
+ITEM.TimeToProcess = 5
+ITEM.ReqCook = { "item_cheesypizza", "item_meat" }
+ITEM.EatFor = 35
+ITEM.Rarity = 1

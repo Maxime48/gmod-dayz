@@ -1,0 +1,15 @@
+ITEM = {}
+ITEM.Name = "Wooden Pole"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "A wooden pole."
+ITEM.Model = "models/props_docks/channelmarker_gib01.mdl"
+ITEM.Modelscale = 0.1
+ITEM.Weight = 5
+ITEM.LootType = { "" }
+ITEM.Price = 45
+ITEM.SpawnChance = -1
+ITEM.NoBlueprint = true
+ITEM.OverrideUseMenu = "Deploy"
+ITEM.ReqCraft = {"item_plank", "item_plank"}
+ITEM.SpawnOffset = Vector(0,0,3.5)
+ITEM.ProcessFunction = function(ply, item, class) return ply:DeployItem(item, class) end

@@ -1,0 +1,16 @@
+ITEM = {}
+ITEM.Name = "Camp Fire"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "A deployable camp fire."
+ITEM.Model = "models/dayz/misc/dayz_campfire.mdl"
+ITEM.Modelscale = 0.3
+ITEM.Weight = 5
+ITEM.LootType = { "" }
+ITEM.Price = 45
+ITEM.SpawnChance = -1
+ITEM.NoBlueprint = true
+ITEM.OverrideUseMenu = "Deploy"
+ITEM.DeployEnt = "dz_interactable"
+ITEM.ReqCraft = { "item_plank", "item_plank", "item_stone", "item_stone", "item_stone", "item_stone" }
+ITEM.SpawnOffset = Vector(0,0,3.5)
+ITEM.ProcessFunction = function(ply, item, class) return ply:DeployItem(item, class) end

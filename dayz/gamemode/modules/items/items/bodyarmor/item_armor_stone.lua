@@ -1,0 +1,16 @@
+ITEM = {}
+ITEM.Name = "Stone Armor"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Basic armor."
+ITEM.Model = "models/combine_helicopter/bomb_debris_3.mdl"
+ITEM.Material = "dayz/misc/dayz_campfire_stone"
+ITEM.Weight = 5
+ITEM.Price = 1000
+ITEM.BodyArmor = 40
+ITEM.LevelReq = 3
+ITEM.SpawnChance = 1
+ITEM.NoGiveOnBreak = true
+ITEM.ReqCraft = { "item_stone", "item_stone", "item_armor_wood" }
+ITEM.LootType = { "Weapon" }
+ITEM.SpawnOffset = Vector(0,0,3.5)
+ITEM.Rarity = 1

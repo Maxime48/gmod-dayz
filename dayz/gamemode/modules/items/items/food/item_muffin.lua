@@ -1,0 +1,14 @@
+ITEM = {}
+ITEM.Name = "Muffin"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Do you know the muffin man?"
+ITEM.Model = "models/griim/foodpack/muffin.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 25
+ITEM.SpawnChance = 5
+ITEM.SpawnOffset = Vector(0,0,6)
+ITEM.TimeToProcess = 5
+ITEM.ReqCook = {"item_cornmeal", "item_drink3", "item_egg" }
+ITEM.EatFor = 15
+ITEM.Rarity = 1

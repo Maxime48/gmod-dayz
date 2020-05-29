@@ -1,0 +1,16 @@
+ITEM = {}
+ITEM.Name = "Tophat"
+ITEM.Angle = Angle(-180,-90,-90)
+ITEM.Desc = "Good day sir."
+ITEM.Model = "models/player/items/humans/top_hat.mdl"
+ITEM.Price = 500
+ITEM.Weight = 1
+ITEM.Hat = true
+ITEM.VIP = true
+ITEM.HatPos = Vector(0, 0, 0)
+ITEM.HatAng = Angle(0, 0, 0)
+ITEM.LootType = { "Hat" }
+ITEM.SpawnChance = 1
+ITEM.SpawnOffset = Vector(0,0,5)
+ITEM.Rarity = 1
+ITEM.ReqCraft = { "item_fabric", "item_ironbar", "item_fabric", "item_plastic" }

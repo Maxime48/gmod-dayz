@@ -1,0 +1,13 @@
+ITEM = {}
+ITEM.Name = "Gunpowder (Processed)"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "A mixture of Gunpowder x3"
+ITEM.Model = "models/props_lab/jar01a.mdl"
+ITEM.Color = Color(150, 0, 0)
+ITEM.Weight = 0.3
+ITEM.LootType = { "Weapon" }
+ITEM.SpawnChance = 15
+ITEM.SpawnOffset = Vector(0,0,4)
+ITEM.NoBlueprint = true
+ITEM.TimeToProcess = 1
+ITEM.ReqCraft = { "item_gunpowder", "item_gunpowder", "item_gunpowder" }

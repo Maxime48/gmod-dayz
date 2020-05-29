@@ -1,0 +1,15 @@
+ITEM = {}
+ITEM.Name = "Axe (Iron)"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Chop chop!"
+ITEM.Model = "models/weapons/w_gms_hatchet.mdl"
+ITEM.Skin = 2
+ITEM.Color = Color(255,255,255)
+ITEM.Weight = 5
+ITEM.LootType = { "Industrial" }
+ITEM.SpawnChance = 5
+ITEM.Weapon = "weapon_hatchet_iron"
+ITEM.Tertiary = true
+ITEM.SpawnOffset = Vector(0,0,4)
+ITEM.ReqCraft = { "item_ironbar", "item_ironbar", "item_axe_copper" }
+ITEM.Rarity = 1

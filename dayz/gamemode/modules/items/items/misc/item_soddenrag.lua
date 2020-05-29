@@ -1,0 +1,15 @@
+ITEM = {}
+ITEM.Name = "Sodden Rag"
+ITEM.Angle = Angle(90,90,90)
+ITEM.Desc = "Torn up clothes dunked in gas."
+ITEM.Model = "models/gibs/antlion_gib_small_2.mdl"
+ITEM.Material = "models/props_c17/FurnitureMetal001a"
+ITEM.Color = Color(75,75,75)
+ITEM.Weight = 1
+ITEM.Price = 50
+ITEM.SpawnChance = -1
+ITEM.CanIgnite = true
+ITEM.ReqCraft = { "item_fabric", "item_gasoline" }
+ITEM.SpawnOffset = Vector(0,0,0)
+ITEM.SpawnAngle = Angle(0,0,0)
+ITEM.Rarity = 1

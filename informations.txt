@@ -1,0 +1,6 @@
+Note: vous pouvez ignorer la partie 4 de " initial.PNG " car ce n'est qu'une ancienne capture, les bases de données devraient normalement se générer seules.
+Sinon vous pouvez toujours éssayer la commande fournie
+
+Vous devrez remplir la config qui sera dans data/plib (normalement), si elle n'est pas crée utilisez l'addon fournis.
+
+Le dossier data comprend certaines configurations pour certaines maps comme des spawns, il est recommandé de l'utiliser

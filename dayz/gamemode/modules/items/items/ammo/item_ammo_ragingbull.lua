@@ -1,0 +1,16 @@
+ITEM = {}
+ITEM.Name = ".44 Magnum"
+ITEM.Angle = Angle(90,90,90)
+ITEM.Desc = ".44 Magnum Rounds."
+ITEM.Model = "models/items/357ammobox.mdl"
+ITEM.Color = Color(255, 0, 0, 255)
+ITEM.Weight = 0
+ITEM.SpawnChance = 25	
+ITEM.SpawnOffset = Vector(0,0,1)
+ITEM.LootType = { "Weapon" }
+ITEM.NoBlueprint = true
+ITEM.TimeToProcess = 1
+ITEM.ReqCraft = { "item_bulletcasing2", "item_gunpowder", "item_gunpowder" }
+ITEM.ClipSize = 6
+ITEM.AmmoType = ".44 Magnum"
+ITEM.Rarity = 1

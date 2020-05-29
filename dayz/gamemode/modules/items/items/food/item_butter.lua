@@ -1,0 +1,15 @@
+ITEM = {}
+ITEM.Name = "Butter"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "It's udderly irresistable!"
+ITEM.Model = "models/griim/foodpack/twinkiebit.mdl"
+ITEM.Material = "models/debug/debugwhite"
+ITEM.Color = Color(255, 255, 0)
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 25
+ITEM.SpawnChance = 20
+ITEM.SpawnOffset = Vector(0,0,6)
+ITEM.TimeToProcess = 5
+ITEM.EatFor = 5
+ITEM.ReqCook = { "item_cream" }

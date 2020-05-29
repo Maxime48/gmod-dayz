@@ -1,0 +1,15 @@
+ITEM = {}
+ITEM.Name = "Grain Alcohol"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "An alcoholic mixture that can be used in a multitude of ways."
+ITEM.Model = "models/dayz/misc/dayz_grainalcohol.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Industrial", "Food" }
+ITEM.Price = 25
+ITEM.SpawnChance = 5
+ITEM.SpawnOffset = Vector(0,0,6)
+ITEM.TimeToProcess = 25
+ITEM.NoBlueprint = true
+ITEM.DrinkFor = 15
+ITEM.ReqCook = { "item_apple", "item_apple" }
+ITEM.Rarity = 1

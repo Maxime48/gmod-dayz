@@ -1,0 +1,13 @@
+ITEM = {}
+ITEM.Name = "Fresh for Less"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Freshspawn cooldown takes 50% less time"
+ITEM.Model = "models/props_lab/bewaredog.mdl"
+ITEM.Color = Color(255, 210, 0)
+ITEM.Material = "models/shiny"
+ITEM.Weight = 0
+ITEM.Credits = 750
+ITEM.SpawnChance = -1
+ITEM.SpawnOffset = Vector(0,0,3.5)
+ITEM.NoConsumeFromFloor = true
+ITEM.ProcessFunction = function(ply, item, class) ply:GivePerk(class) end

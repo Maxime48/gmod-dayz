@@ -1,0 +1,26 @@
+Ces urls peuvent devenir invalides | si c'est le cas utilisez " web.archive.org "
+Guide mysql:
+https://www.gmoddayz.net/docs/forservers/mysqlguide/
+Config de default | ATTENTION: elle date de la version 6.65
+https://gmoddayz.net/docs/forservers/config/
+Wiki des commandes admin:
+https://gmoddayz.net/docs/forservers/admincommands/
+
+aide pour voir certaines anciennes pages :
+
+https://web.archive.org/web/20190814110818/https://gmoddayz.net/
+Faire un item custom:
+https://web.archive.org/web/20190716114158/http://www.gmoddayz.net/docs/development/customitemkit/
+Hooks du gamemode | probablement plus a jour:
+https://web.archive.org/web/20190716211221/http://www.gmoddayz.net/docs/development/gamemodehooks/
+Setup du gamemode | devrait encore marcher
+https://web.archive.org/web/20190516100528/http://www.gmoddayz.net/docs/forservers/setupguide/
+
+Certaines de ces pages sont sauvegardées en images au cas où.
+
+Addons nécéssaires :
+
+https://steamcommunity.com/workshop/filedetails/?id=1600890432
+
+Au cas ou la collection serait insdisponible veuillez me le signaler je renvérais le contenu.
+Il est aussi possible d'avoir du contenu manquant, contactez moi.

@@ -1,0 +1,14 @@
+ITEM = {}
+ITEM.Name = "Potato Bread"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "A nice loaf of potato bread."
+ITEM.Model = "models/weapons/c_items/c_bread_russianblack.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 25
+ITEM.SpawnChance = 5
+ITEM.SpawnOffset = Vector(0,0,6)
+ITEM.TimeToProcess = 5
+ITEM.ReqCook = { "item_bread", "item_potato" }
+ITEM.EatFor = 40
+ITEM.Rarity = 1

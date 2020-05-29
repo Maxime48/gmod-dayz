@@ -1,0 +1,13 @@
+ITEM = {}
+ITEM.Name = "Paper"
+ITEM.Angle = Angle(90,90,90)
+ITEM.Desc = "Used to create blueprints"
+ITEM.Model = "models/props_junk/garbage_newspaper001a.mdl"
+ITEM.Weight = 0
+ITEM.SpawnChance = 30
+ITEM.SpawnOffset = Vector(0,0,5)
+ITEM.SpawnAngle = Angle(0,0,0)
+ITEM.LootType = { "Industrial" }
+ITEM.NoBlueprint = true
+ITEM.ReqCraft = { "item_plank" }
+ITEM.Rarity = 1

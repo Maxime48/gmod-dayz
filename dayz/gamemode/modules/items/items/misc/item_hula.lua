@@ -1,0 +1,11 @@
+ITEM = {}
+ITEM.Name = "Hula Doll"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "I wonder where this has been?"
+ITEM.Model = "models/props_lab/huladoll.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Basic" }
+ITEM.Price = 15
+ITEM.SpawnChance = 55
+ITEM.SpawnOffset = Vector(0,0,3)
+ITEM.ReqCraft = { "item_plastic", "item_plastic" }

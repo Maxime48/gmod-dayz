@@ -1,0 +1,16 @@
+ITEM = {}
+ITEM.Name = "Dark Chocolate"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "CHOCOLLAAAAATE!"
+ITEM.Model = "models/griim/foodpack/twinkiebit.mdl"
+ITEM.Material = "phoenix_storms/cube"
+ITEM.Color = Color(77, 58, 7)
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 25
+ITEM.SpawnChance = 20
+ITEM.SpawnOffset = Vector(0,0,6)
+ITEM.TimeToProcess = 5
+ITEM.EatFor = 5
+ITEM.ReqCook = { "item_cream", "item_cocoa", "item_butter" }
+ITEM.Rarity = 1

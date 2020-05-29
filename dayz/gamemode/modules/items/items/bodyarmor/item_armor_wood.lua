@@ -1,0 +1,17 @@
+ITEM = {}
+ITEM.Name = "Wooden Armor"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Basic armor."
+ITEM.Model = "models/combine_helicopter/bomb_debris_3.mdl"
+ITEM.Material = "dayz/misc/dayz_campfire_wood"
+ITEM.Weight = 5
+ITEM.Price = 1000
+ITEM.BodyArmor = 25
+ITEM.SpawnChance = 1
+ITEM.LevelReq = 1
+ITEM.NoBlueprint = true
+ITEM.NoGiveOnBreak = true
+ITEM.ReqCraft = { "item_wood", "item_wood", "item_fabric", "item_fabric" }
+ITEM.LootType = { "Weapon" }
+ITEM.SpawnOffset = Vector(0,0,3.5)
+ITEM.Rarity = 1

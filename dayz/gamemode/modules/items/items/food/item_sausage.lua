@@ -1,0 +1,15 @@
+ITEM = {}
+ITEM.Name = "Sausage"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Gotta love Sausage!"
+ITEM.Model = "models/griim/foodpack/sausage.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 25
+ITEM.SpawnChance = 15
+ITEM.NoBlueprint = true
+ITEM.SpawnOffset = Vector(0,0,6)
+ITEM.TimeToProcess = 5
+ITEM.ReqCook = { "item_meat", "item_meat" }
+ITEM.EatFor = 20
+ITEM.Rarity = 1

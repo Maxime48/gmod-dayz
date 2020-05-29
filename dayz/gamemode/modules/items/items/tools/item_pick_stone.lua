@@ -1,0 +1,16 @@
+ITEM = {}
+ITEM.Name = "Pickaxe (Stone)"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Diggy diggy hole"
+ITEM.Model = "models/weapons/w_gms_pickaxe.mdl"
+ITEM.Skin = 0
+ITEM.Color = Color(255,255,255)
+ITEM.Weight = 5
+ITEM.LootType = { "Industrial" }
+ITEM.SpawnChance = 5
+ITEM.Weapon = "weapon_pickaxe_stone"
+ITEM.Tertiary = true
+ITEM.NoBlueprint = true
+ITEM.SpawnOffset = Vector(0,0,4)
+ITEM.ReqCraft = { "item_stone", "item_stone", "item_plank" }
+ITEM.Rarity = 1

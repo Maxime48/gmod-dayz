@@ -1,0 +1,14 @@
+ITEM = {}
+ITEM.Name = "Pancake Stack"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = ""
+ITEM.Model = "models/griim/foodpack/pancakestack.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 25
+ITEM.SpawnChance = 1
+ITEM.SpawnOffset = Vector(0,0,6)
+ITEM.TimeToProcess = 5
+ITEM.ReqCook = { "item_pancake", "item_pancake", "item_pancake" }
+ITEM.EatFor = 30
+ITEM.Rarity = 1

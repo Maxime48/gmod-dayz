@@ -1,0 +1,14 @@
+ITEM = {}
+ITEM.Name = "Waffle"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Waffle on son... waffle on."
+ITEM.Model = "models/griim/foodpack/waffle.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 25
+ITEM.SpawnChance = 20
+ITEM.SpawnOffset = Vector(0,0,6)
+ITEM.TimeToProcess = 5
+ITEM.ReqCook = { "item_cheesybread", "item_breadslice" }
+ITEM.EatFor = 25
+ITEM.Rarity = 1

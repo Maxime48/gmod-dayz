@@ -1,0 +1,14 @@
+ITEM = {}
+ITEM.Name = "Burger"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "A royale with cheese."
+ITEM.Model = "models/food/burger.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 25
+ITEM.SpawnChance = 1
+ITEM.SpawnOffset = Vector(0,0,6)
+ITEM.TimeToProcess = 5
+ITEM.EatFor = 35
+ITEM.ReqCook = { "item_breadslice", "item_cheese", "item_meat", "item_breadslice" }
+ITEM.Rarity = 1

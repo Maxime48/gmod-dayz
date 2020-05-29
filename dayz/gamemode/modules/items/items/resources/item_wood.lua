@@ -1,0 +1,14 @@
+ITEM = {}
+ITEM.Name = "Wood"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Chop chop!"
+ITEM.Model = "models/dayz/misc/dayz_woodlog.mdl"
+ITEM.Weight = 0.1
+ITEM.ViewAngle = Angle(0,90,0)
+ITEM.Price = 20	
+ITEM.CanIgnite = true
+ITEM.CantDecompile = true
+ITEM.SpawnChance = -1
+ITEM.DontStock = true
+ITEM.SpawnOffset = Vector(0,0,4)
+ITEM.Modelscale = 0.5

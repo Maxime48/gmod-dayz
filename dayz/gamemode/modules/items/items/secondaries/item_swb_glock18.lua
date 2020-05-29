@@ -1,0 +1,17 @@
+ITEM = {}
+ITEM.Name = "MAC11"
+ITEM.Angle = Angle(90,90,90)
+ITEM.Desc = ""
+ITEM.Model = "models/weapons/w_smg_mac10.mdl"
+ITEM.Weight = 20
+ITEM.SpawnChance = 5
+ITEM.SpawnOffset = Vector(0,0,1)
+ITEM.SpawnAngle = Angle(0,0,90)
+ITEM.LootType = { "Weapon" }
+ITEM.Gun = true
+ITEM.Secondary = true
+ITEM.LevelReq = 9
+ITEM.Craftable = true
+ITEM.ReqCraft = { "item_part_g", "item_part_e", "item_ironbar" }
+ITEM.Weapon = "cw_mac11"
+ITEM.Rarity = 3

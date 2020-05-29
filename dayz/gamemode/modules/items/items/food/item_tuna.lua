@@ -1,0 +1,15 @@
+ITEM = {}
+ITEM.Name = "Tuna"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "A can of tuna."
+ITEM.Model = "models/dayz/food/dayz_tuna.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 25
+ITEM.SpawnChance = 20
+ITEM.SpawnOffset = Vector(0,0,6)
+ITEM.TimeToProcess = 5
+ITEM.OverrideCamPos = Vector(4, 4, 4)
+ITEM.ReqCook = { "item_food5", "item_emptycan" }
+ITEM.EatFor = 15
+ITEM.Rarity = 1

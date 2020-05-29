@@ -1,0 +1,13 @@
+ITEM = {}
+ITEM.Name = "Empty Gasoline Can"
+ITEM.Angle = Angle(90,90,90)
+ITEM.Desc = "Smells like Gasoline, but empty."
+ITEM.Model = "models/props_junk/gascan001a.mdl"
+ITEM.Price = 25
+ITEM.Weight = 1
+ITEM.Color = Color(127,127,127,255)
+ITEM.LootType = { "Industrial" }
+ITEM.SpawnChance = 35
+ITEM.SpawnOffset = Vector(0,0,14)
+ITEM.ReqCraft = { "item_ironbar", "item_ironbar" }
+ITEM.Rarity = 1

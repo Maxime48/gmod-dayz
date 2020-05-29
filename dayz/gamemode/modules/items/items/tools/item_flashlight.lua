@@ -1,0 +1,13 @@
+ITEM = {}
+ITEM.Name = "Flashlight"
+ITEM.Angle = Angle(90,90,90)
+ITEM.Desc = "Press [F] to use your flashlight."
+ITEM.Model = "models/raviool/flashlight.mdl"
+ITEM.Weight = 1
+ITEM.Price = 50
+ITEM.SpawnChance = 70
+ITEM.SpawnOffset = Vector(0,0,0)
+ITEM.SpawnAngle = Angle(0,0,0)
+ITEM.LootType = { "Industrial" }
+ITEM.ReqCraft = {"item_fuse", "item_ironbar", "item_plastic" }
+ITEM.Rarity = 1

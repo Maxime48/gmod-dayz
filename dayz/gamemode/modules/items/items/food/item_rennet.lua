@@ -1,0 +1,14 @@
+ITEM = {}
+ITEM.Name = "Rennet"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "A catalyst required to make cheese."
+ITEM.Model = "models/dayz/cooking/dayz_rennet.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 25
+ITEM.SpawnChance = 25
+ITEM.SpawnOffset = Vector(0,0,6)
+ITEM.ViewAngle = Angle(0,-110,0)
+ITEM.ReqCook = { "item_egg", "item_egg" }
+ITEM.EatFor = 30
+ITEM.HealsFor = -30

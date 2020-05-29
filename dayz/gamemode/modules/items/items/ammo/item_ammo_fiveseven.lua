@@ -1,0 +1,16 @@
+ITEM = {}
+ITEM.Name = "5.7x28MM"
+ITEM.Angle = Angle(90,90,90)
+ITEM.Desc = "5.7x28MM rounds."
+ITEM.Model = "models/items/357ammobox.mdl"
+ITEM.Color = Color(0, 255, 0, 255)
+ITEM.Weight = 0
+ITEM.SpawnChance = 15
+ITEM.SpawnOffset = Vector(0,0,1)
+ITEM.LootType = { "Weapon" }
+ITEM.ClipSize = 7
+ITEM.AmmoType = "5.7x28MM"
+ITEM.NoBlueprint = true
+ITEM.TimeToProcess = 1
+ITEM.ReqCraft = { "item_bulletcasing2", "item_gunpowder", "item_gunpowder" }
+ITEM.Rarity = 1

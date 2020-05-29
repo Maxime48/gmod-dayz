@@ -1,0 +1,17 @@
+ITEM = {}
+ITEM.Name = "Flash Grenade"
+ITEM.Angle = Angle(90,90,90)
+ITEM.Desc = "Throw to infuriate your enemies."
+ITEM.Model = "models/weapons/w_eq_flashbang_thrown.mdl"
+ITEM.Weight = 5
+ITEM.SpawnChance = 5
+ITEM.SpawnOffset = Vector(0,0,1)
+ITEM.SpawnAngle = Angle(0,0,90)
+ITEM.LootType = { "Weapon" }
+ITEM.AmmoType = "Flash Grenades"
+ITEM.Gun = true
+ITEM.LevelReq = 5
+ITEM.Tertiary = true
+ITEM.ReqCraft = { "item_fuse", "item_gunpowder_ref", "item_bleach", "item_emptycan" }
+ITEM.Weapon = "cw_flash_grenade"
+ITEM.Rarity = 1

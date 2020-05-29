@@ -1,0 +1,16 @@
+ITEM = {}
+ITEM.Name		 = "Machete"
+ITEM.Angle		 = Angle(0,0,0)
+ITEM.Desc		 = "A Machete. Useful for cutting shit up."
+ITEM.Model		 = "models/weapons/melee/w_ws_pamachete.mdl"
+ITEM.Weight 		 = 10
+ITEM.LootType	 = { "Weapon" }
+ITEM.SpawnChance  = 15
+ITEM.Melee		 = true
+ITEM.CWDamageOverridePrimary = {30, 40}
+ITEM.CWDamageOverrideSecondary = {30, 40}
+ITEM.SpawnOffset	 = Vector(0,0,0)
+ITEM.Weapon		 = "cw_ws_pamachete"
+ITEM.ReqCraft = {"item_plank", "item_part_f", "item_part_c", "item_ironbar" }
+ITEM.Rarity = 4
+ITEM.LevelReq = 12

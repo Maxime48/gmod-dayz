@@ -1,0 +1,11 @@
+ITEM = {}
+ITEM.Name = "Empty Can"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Life is like this tin can: Empty and devoid of taste."
+ITEM.Model = "models/props_junk/garbage_metalcan001a.mdl"
+ITEM.Weight = 0.5
+ITEM.LootType = { "Basic" }
+ITEM.Price = 15
+ITEM.SpawnChance = 55
+ITEM.SpawnOffset = Vector(0,0,3)
+ITEM.ReqCraft = { "item_ironbar" }

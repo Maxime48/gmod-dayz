@@ -1,0 +1,12 @@
+ITEM = {}
+ITEM.Name = "Raw Meat"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Butchered from your local source of nature."
+ITEM.Model = "models/weapons/w_bugbait.mdl"
+ITEM.Material = "models/flesh"
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 25
+ITEM.SpawnChance = -1
+ITEM.EatFor = 5
+ITEM.SpawnOffset = Vector(0,0,6)

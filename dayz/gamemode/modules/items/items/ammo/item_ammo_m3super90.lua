@@ -1,0 +1,15 @@
+ITEM = {}
+ITEM.Name = "12 Gauge"
+ITEM.Angle = Angle(90,90,90)
+ITEM.Desc = "12 Gauge Shells."
+ITEM.Model = "models/Items/BoxBuckshot.mdl"
+ITEM.Weight = 0
+ITEM.SpawnChance = 25	
+ITEM.SpawnOffset = Vector(0,0,1)
+ITEM.LootType = { "Weapon" }
+ITEM.ClipSize = 8
+ITEM.AmmoType = "12 Gauge"
+ITEM.NoBlueprint = true
+ITEM.TimeToProcess = 1
+ITEM.ReqCraft = { "item_bulletcasing3", "item_gunpowder", "item_gunpowder", "item_gunpowder" }
+ITEM.Rarity = 1

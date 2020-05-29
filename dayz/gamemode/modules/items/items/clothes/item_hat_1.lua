@@ -1,0 +1,14 @@
+ITEM = {}
+ITEM.Name = "Traffic Cone"
+ITEM.Angle = Angle(-180,-90,-90)
+ITEM.Desc = "Put it on your head and pretend you are a Unicorn."
+ITEM.Model = "models/props_junk/TrafficCone001a.mdl"
+ITEM.Weight = 1
+ITEM.Hat = true
+ITEM.HatPos = Vector(0, 0, 0)
+ITEM.HatAng = Angle(0, 0, 0)
+ITEM.LootType = { "Hat" }
+ITEM.SpawnChance = 40
+ITEM.ReqCraft = { "item_plastic", "item_plastic", "item_plastic" }
+ITEM.SpawnOffset = Vector(0,0,5)
+ITEM.Rarity = 1

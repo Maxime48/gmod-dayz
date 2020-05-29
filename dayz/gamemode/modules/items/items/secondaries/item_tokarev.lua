@@ -1,0 +1,17 @@
+ITEM = {}
+ITEM.Name = "TT-33 Tokarev"
+ITEM.Angle = Angle(90,90,90)
+ITEM.Desc = ""
+ITEM.Model = "models/weapons/w_pist_p228.mdl"
+ITEM.Weight = 30
+ITEM.SpawnChance = 5
+ITEM.SpawnOffset = Vector(0,0,1)
+ITEM.SpawnAngle = Angle(0,0,90)
+ITEM.LootType = { "Weapon" }
+ITEM.Gun = true
+ITEM.Secondary = true
+ITEM.Craftable = true
+ITEM.LevelReq = 9
+ITEM.ReqCraft = { "item_part_b", "item_part_f", "item_ironbar" }
+ITEM.Weapon = "khr_tokarev"
+ITEM.Rarity = 4

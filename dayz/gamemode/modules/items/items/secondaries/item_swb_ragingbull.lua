@@ -1,0 +1,17 @@
+ITEM = {}
+ITEM.Name = "MR96"
+ITEM.Angle = Angle(90,90,90)
+ITEM.Desc = ""
+ITEM.Model = "models/weapons/w_357.mdl"
+ITEM.Weight = 30
+ITEM.SpawnChance = 5
+ITEM.SpawnOffset = Vector(0,0,1)
+ITEM.SpawnAngle = Angle(0,0,90)
+ITEM.LootType = { "Weapon" }
+ITEM.Gun = true
+ITEM.Secondary = true
+ITEM.Craftable = true
+ITEM.LevelReq = 15
+ITEM.ReqCraft = { "item_part_b", "item_part_f", "item_ironbar" }
+ITEM.Weapon = "cw_mr96"
+ITEM.Rarity = 4

@@ -1,0 +1,13 @@
+ITEM = {}
+ITEM.Name = "Copper Ore"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Freshly mined Copper ore!"
+ITEM.Model = "models/dayz/misc/dayz_mineralrock.mdl"
+ITEM.Skin = 4
+ITEM.Weight = 0.1
+ITEM.Price = 20	
+ITEM.SpawnChance = 40
+ITEM.CantCraft = true
+ITEM.SpawnOffset = Vector(0,0,4)
+ITEM.UsedInCrafting = true
+ITEM.Rarity = 1

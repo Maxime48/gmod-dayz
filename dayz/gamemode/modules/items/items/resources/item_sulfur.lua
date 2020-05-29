@@ -1,0 +1,14 @@
+ITEM = {}
+ITEM.Name = "Sulfur"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Smells like rotten eggs."
+ITEM.Model = "models/props_lab/jar01b.mdl"
+ITEM.Color = Color(150, 150, 0)
+ITEM.Weight = 0.1
+ITEM.LootType = { "Industrial" }
+ITEM.DontStock = true
+ITEM.SellPrice = 1
+ITEM.SpawnChance = 5
+ITEM.SpawnOffset = Vector(0,0,4)
+ITEM.NoBlueprint = true
+ITEM.ReqCraft = { "item_stone" } 

@@ -1,0 +1,14 @@
+ITEM = {}
+ITEM.Name		 =  "Baseball bat"
+ITEM.Desc 		 =  "A metal bat with a wooden core."
+ITEM.Angle		 =  Angle(0,0,0)
+ITEM.Model		 =  "models/weapons/w_basebat.mdl"
+ITEM.Weight	     =  10
+ITEM.LootType 	 =  { "Weapon", "Basic" }
+ITEM.SpawnChance =  40
+ITEM.SpawnOffset =  Vector(0, 0, 0)
+ITEM.Melee 		 = true
+ITEM.ReqCraft = { "item_ironbar", "item_plank" }
+ITEM.Weapon		 =  "cw_dz_bat"
+ITEM.Rarity = 2
+ITEM.LevelReq = 1

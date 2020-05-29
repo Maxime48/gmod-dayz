@@ -1,0 +1,17 @@
+ITEM = {}
+ITEM.Name = "Medium Backpack"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "A Medium Backpack."
+ITEM.Model = "models/fallout 3/backpack_2.mdl"
+ITEM.Weight = 25
+ITEM.Price = 1000
+ITEM.BackPack = 40
+ITEM.WeightFor = 40
+ITEM.EquipFunc = function(ply, item, class, rarity) ply:AddAdditionalWeight( rarity, 40) end
+ITEM.DEquipFunc = function(ply, item, class, rarity) ply:AddAdditionalWeight( rarity, -40) end
+ITEM.SpawnChance = 1
+ITEM.LootType = { "Weapon" }
+ITEM.ReqCraft = { "item_fabric", "item_fabric", "item_fabric", "bp_small" }
+ITEM.SpawnOffset = Vector(0,0,3.5)
+ITEM.Rarity = 1
+ITEM.LevelReq = 5

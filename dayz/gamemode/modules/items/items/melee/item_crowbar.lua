@@ -1,0 +1,15 @@
+ITEM = {}
+ITEM.Name = "Crowbar"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "A multipurpose tool used for leverage."
+ITEM.Model = "models/weapons/w_crowbar.mdl"
+ITEM.Weight = 10
+ITEM.LootType = { "Weapon", "Basic" }
+ITEM.SpawnChance = 40
+ITEM.Melee = true
+ITEM.SpawnOffset = Vector(0,0,0)
+ITEM.Weapon = "cw_dz_crowbar"
+ITEM.ReqCraft = { "item_ironbar", "item_ironbar" }
+ITEM.NoBlueprint = true
+ITEM.Rarity = 2
+ITEM.LevelReq = 1

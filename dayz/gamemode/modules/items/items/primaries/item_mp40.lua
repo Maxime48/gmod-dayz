@@ -1,0 +1,14 @@
+ITEM = {}
+ITEM.Name = "MP-40"
+ITEM.Angle = Angle(90,90,90)
+ITEM.Desc = "o/"
+ITEM.Model = "models/weapons/w_smg_ump45.mdl"
+ITEM.Weight = 30
+ITEM.SpawnChance = 3
+ITEM.SpawnOffset = Vector(0,0,1)
+ITEM.SpawnAngle = Angle(0,0,90)
+ITEM.LootType = { "Weapon" }
+ITEM.Gun = true
+ITEM.Primary = true
+ITEM.ReqCraft = { "item_part_a", "item_part_d", "item_part_c" }
+ITEM.Weapon = "khr_mp40"

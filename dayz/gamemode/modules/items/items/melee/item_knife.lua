@@ -1,0 +1,16 @@
+ITEM = {}
+ITEM.Name 		 =  "Extrema Ratio MK21"
+ITEM.Angle		 =  Angle(0,0,0)
+ITEM.Desc		 =  "A small knife, useful for concealment."
+ITEM.Model		 =  "models/weapons/wcw_ex_ra.mdl"
+ITEM.Weight		 =  10
+ITEM.LootType	 =  { "Weapon" }
+ITEM.SpawnChance  =  25
+ITEM.Melee		 =  true
+ITEM.SpawnOffset	 =  Vector(0,0,0)
+ITEM.CWDamageOverridePrimary = {10, 20}
+ITEM.CWDamageOverrideSecondary = {15, 25}
+ITEM.Weapon		 =  "cw_extrema_ratio_official"
+ITEM.ReqCraft = { "item_ironbar", "item_part_f", "item_part_d", "item_plank" }
+ITEM.Rarity = 3
+ITEM.LevelReq = 6

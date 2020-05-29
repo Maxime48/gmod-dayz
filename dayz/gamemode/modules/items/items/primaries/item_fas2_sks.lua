@@ -1,0 +1,21 @@
+ITEM = {}
+
+ITEM.Name = "H&K UMP .45"
+ITEM.Angle = Angle(90,90,90)
+ITEM.Desc = ""
+ITEM.Model = "models/weapons/w_smg_ump45.mdl"
+ITEM.Weight = 35
+ITEM.Price = 2400
+ITEM.Credits = 240
+ITEM.SpawnChance = 5 -- Out of 100ITEM.
+ITEM.SpawnOffset = Vector(0,0,1)
+ITEM.SpawnAngle = Angle(0,0,90)
+ITEM.LootType = { "Weapon" }
+ITEM.Gun = true
+ITEM.LevelReq = 7
+ITEM.Primary = true
+ITEM.AmmoOverride = "9x18MM"
+ITEM.Weapon = "cw_ump45"
+ITEM.Craftable = true
+ITEM.NoBlueprint = true
+ITEM.ReqCraft = { "item_part_b", "item_part_d", "item_part_g", "item_wood", "item_wood"}

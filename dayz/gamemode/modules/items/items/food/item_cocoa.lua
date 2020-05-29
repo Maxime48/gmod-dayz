@@ -1,0 +1,14 @@
+ITEM = {}
+ITEM.Name = "Cocoa"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "A major part of chocolate creation!"
+ITEM.Model = "models/props_lab/jar01b.mdl"
+ITEM.Color = Color(255, 94, 53)
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 25
+ITEM.SpawnChance = 20
+ITEM.SpawnOffset = Vector(0,0,6)
+ITEM.TimeToProcess = 5
+ITEM.EatFor = 5
+ITEM.ReqCook = { "item_wheat", "item_wheat" }

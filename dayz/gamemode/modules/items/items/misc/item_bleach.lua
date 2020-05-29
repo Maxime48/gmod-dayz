@@ -1,0 +1,16 @@
+ITEM = {}
+ITEM.Name = "Bleach"
+ITEM.Angle = Angle(0,0,2)
+ITEM.Desc = "The label reads: Keep out of the reach of Latex Assassin.\nDrink for shits and giggles."
+ITEM.Model = "models/props_junk/garbage_plasticbottle002a.mdl"
+ITEM.Weight = 1
+ITEM.Price = 30
+ITEM.LootType = { "Food", "Industrial" }
+ITEM.SpawnChance = 50
+ITEM.DrinkFor = -100
+ITEM.EatFor = -100
+ITEM.RadsFor = 50
+ITEM.SpawnOffset = Vector(0,0,10)
+ITEM.DrinkFunction = function(ply, ITEM) ply:DoProcess(ITEM, "Drinking", 5, "npc/barnacle/barnacle_gulp1.wav", 0) end
+ITEM.ProcessFunction = function(ply, ITEM) ply:DrinkHurt(ITEM, -100, 15) ply:EatHurt(ITEM, -100, 15) ply:SetRadiation( ply:GetRadiation() + 50 ) ply:SetSick(true) end
+ITEM.ReqCraft = { "item_plantfibre", "item_plastic", "item_grainalcohol" }

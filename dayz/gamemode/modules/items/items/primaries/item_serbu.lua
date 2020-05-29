@@ -1,0 +1,14 @@
+ITEM = {}
+ITEM.Name = "Serbu Shorty"
+ITEM.Angle = Angle(90,90,90)
+ITEM.Desc = ""
+ITEM.Model = "models/weapons/cw2_super_shorty.mdl"
+ITEM.Weight = 25
+ITEM.SpawnChance = 4
+ITEM.SpawnOffset = Vector(0,0,1)
+ITEM.SpawnAngle = Angle(0,0,90)
+ITEM.LootType = { "Weapon" }
+ITEM.Gun = true
+ITEM.Primary = true
+ITEM.ReqCraft = { "item_part_c", "item_part_b", "item_part_a" }
+ITEM.Weapon = "cw_shorty"

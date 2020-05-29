@@ -1,0 +1,16 @@
+ITEM = {}
+ITEM.Name = "Nails"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Primarily used to hold things in place. Use a hammer."
+ITEM.Model = "models/Items/CrossbowRounds.mdl"
+--ITEM.Modelscale = 1
+ITEM.Weight = 0.1
+ITEM.Price = 10	
+ITEM.SpawnChance = 2
+ITEM.CantDecompile = true
+ITEM.NoBlueprint = true
+ITEM.SpawnOffset = Vector(0,0,4)
+ITEM.GivePer = 2
+ITEM.TimeToProcess = 3
+ITEM.ReqCraft = {"item_metal"}
+ITEM.UsedInCrafting = true

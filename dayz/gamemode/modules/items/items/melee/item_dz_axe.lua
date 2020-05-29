@@ -1,0 +1,14 @@
+ITEM = {}
+ITEM.Name = "Axe"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "An axe. Used to hurt people."
+ITEM.Model = "models/weapons/w_dangerzone_axe.mdl"
+ITEM.Weight = 5
+ITEM.LootType = { "Weapon", "Basic" }
+ITEM.SpawnChance = 40
+ITEM.Melee = true
+ITEM.SpawnOffset = Vector(0,0,0)
+ITEM.Weapon = "dangerzone_axe"
+ITEM.ReqCraft = { "item_ironbar", "item_ironbar" }
+ITEM.Rarity = 2
+ITEM.LevelReq = 1

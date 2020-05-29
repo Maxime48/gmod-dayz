@@ -1,0 +1,16 @@
+ITEM = {}
+ITEM.Name = "Pie Casing"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "A Pie Casing. Just add Filling and cook!"
+ITEM.Model = "models/theforgottenarchitect/pie_empty.mdl"
+ITEM.Skin = 1
+ITEM.Color = Color(0, 0, 0)
+ITEM.Weight = 0.5
+ITEM.LootType = { "Food" }
+ITEM.Price = 25
+ITEM.SpawnChance = 10
+ITEM.SpawnOffset = Vector(0,0,6)
+ITEM.TimeToProcess = 5
+ITEM.EatFor = 10
+ITEM.ReqCook = { "item_wheat", "item_butter" }
+ITEM.Rarity = 1

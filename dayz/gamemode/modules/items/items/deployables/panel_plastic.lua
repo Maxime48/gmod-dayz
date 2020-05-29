@@ -1,0 +1,16 @@
+ITEM = {}
+ITEM.Name = "Plastic Panel"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "A plastic panel."
+ITEM.Model = "models/props_junk/TrashDumpster02b.mdl"
+ITEM.Modelscale = 0.1
+ITEM.Weight = 5
+ITEM.LootType = { "" }
+ITEM.Price = 45
+ITEM.SpawnChance = -1
+ITEM.NoBlueprint = true
+ITEM.OverrideUseMenu = "Deploy"
+ITEM.ReqCraft = {"item_plastic", "item_plastic"}
+ITEM.SpawnOffset = Vector(0,0,3.5)
+ITEM.Function = function(ply, item) ply:DoProcess(item, "Deploying", 2, "", 0) end
+ITEM.ProcessFunction = function(ply, item, class) ply:DeployItem(item, class) end

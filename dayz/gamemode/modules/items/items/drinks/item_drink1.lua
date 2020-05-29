@@ -1,0 +1,12 @@
+ITEM = {}
+ITEM.Name = "Cup of Tea"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Honestly, if you’re given the choice between Armageddon or tea, you don’t say ‘what kind of tea?’"
+ITEM.Model = "models/props_junk/garbage_coffeemug001a.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 15
+ITEM.SpawnChance = 90
+ITEM.DrinkFor = 10
+ITEM.StaminaFor = 5
+ITEM.SpawnOffset = Vector(0,0,3.5)

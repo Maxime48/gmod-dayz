@@ -1,0 +1,16 @@
+ITEM = {}
+ITEM.Name = "Easter Egg"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Happy Easter!\nEat to gain happiness."
+ITEM.Model = "models/props_phx/misc/egg.mdl"
+ITEM.Material = "models/shiny"
+ITEM.Color = Color(255,255,0,255)
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 135
+ITEM.SpawnChance = -1
+ITEM.EEgg = true
+ITEM.SpawnOffset = Vector(0,0,6)
+ITEM.EatFor = 5
+ITEM.DrinkFor = 5
+ITEM.ProcessFunction = function(ply) ply:EmitSound("vo/coast/odessa/male01/nlo_cheer0"..math.random(1,4)..".wav", 75, 100, 1) end

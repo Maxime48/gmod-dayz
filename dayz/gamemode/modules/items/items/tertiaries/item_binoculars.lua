@@ -1,0 +1,15 @@
+ITEM = {}
+ITEM.Name = "Binoculars"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "See things at a distance."
+ITEM.Model = "models/weapons/W_binoculars.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Industrial", "Weapon" }
+ITEM.Price = 50
+ITEM.Credits = 5
+ITEM.Tertiary = true
+ITEM.SpawnChance = 35
+ITEM.SpawnOffset = Vector(0,0,-60)
+ITEM.Weapon = "weapon_binoculars"
+ITEM.OverrideCamPos = Vector(5,2,25)
+ITEM.ReqCraft = { "item_ironbar", "item_plastic" }

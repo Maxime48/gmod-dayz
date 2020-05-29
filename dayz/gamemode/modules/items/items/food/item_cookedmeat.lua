@@ -1,0 +1,16 @@
+ITEM = {}
+ITEM.Name = "Cooked Meat"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Cooked. It's much better for you now."
+ITEM.Model = "models/weapons/w_bugbait.mdl"
+ITEM.Color = Color(127,0,0)
+ITEM.Weight = 0.5
+ITEM.LootType = { "Food" }
+ITEM.Price = 30
+ITEM.SpawnChance = -1
+ITEM.NoBlueprint = true
+ITEM.SpawnOffset = Vector(0,0,6)
+ITEM.TimeToProcess = 5
+ITEM.ReqCook = { "item_meat" }
+ITEM.EatFor = 5
+ITEM.Rarity = 1

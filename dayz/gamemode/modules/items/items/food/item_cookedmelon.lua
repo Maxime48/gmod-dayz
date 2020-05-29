@@ -1,0 +1,17 @@
+ITEM = {}
+ITEM.Name = "Cooked Melon"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Color = Color(100,100,100)
+ITEM.Desc = "Eat this to restore a little hunger/thirst."
+ITEM.Model = "models/props_junk/watermelon01_chunk01b.mdl"
+ITEM.Weight = 0.5
+ITEM.Price = 30
+ITEM.LootType = { "Food" }
+ITEM.SpawnChance = 5 -- Out of 100
+ITEM.NoBlueprint = true
+ITEM.TimeToProcess = 5
+ITEM.SpawnOffset = Vector(0,0,7)
+ITEM.EatFor = 15
+ITEM.DrinkFor = 15
+ITEM.ReqCook = { "item_food2" }
+ITEM.Rarity = 1

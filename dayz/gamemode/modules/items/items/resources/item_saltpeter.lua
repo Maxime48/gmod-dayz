@@ -1,0 +1,14 @@
+ITEM = {}
+ITEM.Name = "Saltpeter"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Potassium nitrate as a powder."
+ITEM.Model = "models/props_lab/jar01b.mdl"
+ITEM.Color = Color(255, 255, 255)
+ITEM.Weight = 0.1
+ITEM.LootType = { "Industrial" }
+ITEM.DontStock = true
+ITEM.SellPrice = 1
+ITEM.SpawnChance = 5
+ITEM.SpawnOffset = Vector(0,0,4)
+ITEM.NoBlueprint = true
+ITEM.ReqCraft = { "item_stone" } 

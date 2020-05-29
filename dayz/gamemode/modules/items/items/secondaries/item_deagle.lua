@@ -1,0 +1,17 @@
+ITEM = {}
+ITEM.Name = "Desert Eagle"
+ITEM.Angle = Angle(90,90,90)
+ITEM.Desc = ""
+ITEM.Model = "models/weapons/w_pist_deagle.mdl"
+ITEM.Weight = 30
+ITEM.SpawnChance = 5
+ITEM.SpawnOffset = Vector(0,0,1)
+ITEM.SpawnAngle = Angle(0,0,90)
+ITEM.LootType = { "Weapon" }
+ITEM.Gun = true
+ITEM.Secondary = true
+ITEM.LevelReq = 15
+ITEM.Craftable = true
+ITEM.ReqCraft = { "item_part_g", "item_part_c", "item_ironbar" }
+ITEM.Weapon = "khr_deagle"
+ITEM.Rarity = 4

@@ -1,0 +1,14 @@
+ITEM = {}
+ITEM.Name = "Pills (Anti-Depressant)"
+ITEM.Angle = Angle(0,0,2)
+ITEM.Desc = "A small bottle of pills reading 'Opioid Analgesics'."
+ITEM.Model = "models/w_models/weapons/w_eq_painpills.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Basic", "Medical" }
+ITEM.Price = 25
+ITEM.HealsFor = 5
+ITEM.SpawnChance = 25
+ITEM.ViewAngle = Angle(0,-110,0)
+ITEM.SpawnOffset = Vector(0,0,0)
+ITEM.ReqCook = { "item_plantfibre", "item_bleach" }
+ITEM.NoBlueprint = true

@@ -1,0 +1,14 @@
+ITEM = {}
+ITEM.Name = "Baguette"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "Om nom nom hon"
+ITEM.Model = "models/weapons/c_items/c_bread_baguette.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 25
+ITEM.SpawnChance = 5
+ITEM.SpawnOffset = Vector(0,0,6)
+ITEM.TimeToProcess = 5
+ITEM.ReqCook = {"item_cornmeal", "item_drink3", "item_egg" }
+ITEM.EatFor = 25
+ITEM.Rarity = 1

@@ -1,0 +1,16 @@
+ITEM = {}
+ITEM.Name = "Cooked Banana"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Color = Color(100,100,100)
+ITEM.Desc = "Eat this to restore a little hunger/thirst."
+ITEM.Model = "models/tsbb/fruits/banana.mdl"
+ITEM.Weight = 0.5
+ITEM.Price = 30
+ITEM.LootType = { "Food" }
+ITEM.NoBlueprint = true
+ITEM.SpawnChance = 5 -- Out of 100
+ITEM.TimeToProcess = 5
+ITEM.SpawnOffset = Vector(0,0,7)
+ITEM.EatFor = 15
+ITEM.ReqCook = { "item_food3" }
+ITEM.Rarity = 1

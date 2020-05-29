@@ -1,0 +1,12 @@
+ITEM = {}
+ITEM.Name = "Egg"
+ITEM.Angle = Angle(0,0,0)
+ITEM.Desc = "An uncooked egg.\nCan cause Sickness."
+ITEM.Model = "models/props_phx/misc/egg.mdl"
+ITEM.Weight = 1
+ITEM.LootType = { "Food" }
+ITEM.Price = 35
+ITEM.SpawnChance = 90
+ITEM.SpawnOffset = Vector(0,0,6)
+ITEM.EatFor = 10
+ITEM.ProcessFunction = function(ply, item) if math.random(1,5) > 2 then ply:SetSick(true) end end
