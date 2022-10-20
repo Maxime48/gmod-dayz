@@ -157,7 +157,7 @@ end)
 
 function PHDayZ_CheckDBSetup()
 	if !PLib.MySQLActive then
-		--Msg("[PHDayZ] WARNING! MYSQL IS NOT CONNECTED. SETUP /DATA/PLIB/CONFIG.TXT AND RESTART!\n")
+		Msg("[PHDayZ] WARNING! MYSQL IS NOT CONNECTED. SETUP /DATA/PLIB/CONFIG.TXT AND RESTART!\n")
 		return
 	end
 
@@ -195,128 +195,134 @@ function PHDayZ_SetupDatabase()
 		return
 	end
 
-	-- Gotta love the difference between SQLite and MySQL
-    local ac = PLib.ACType
-	
-	
 	Msg("[PHDayZ] Creating table `players`...\n")
 	PLib:RunPreparedQuery({ sql = [[
 		CREATE TABLE IF NOT EXISTS `players` (
-			`id` INTEGER NOT NULL PRIMARY KEY ]]..ac..[[,
-			`steamid` VARCHAR(64) NOT NULL,
-			`gender` INTEGER NOT NULL,
-			`face` INTEGER NOT NULL,
-			`hat` INTEGER NOT NULL,
-			`clothes` INTEGER NOT NULL,
-			`alive`  INTEGER NOT NULL,
-			`health` INTEGER NOT NULL,
-			`thirst` INTEGER NOT NULL,
-			`hunger` INTEGER NOT NULL,
-			`xpos` INTEGER NOT NULL,
-			`ypos` INTEGER NOT NULL,
-			`zpos` INTEGER NOT NULL,
-			`mapindex` INTEGER NOT NULL,
-			`xp` INTEGER NOT NULL,
-			`lvl` INTEGER NOT NULL,
-			`kills` INTEGER NOT NULL,
-			`credits` INTEGER NOT NULL,
-			`extraslots` INTEGER NOT NULL,
-			`realhealth` INTEGER NOT NULL DEFAULT '100',
-			`bleeding` INTEGER NOT NULL DEFAULT '0',
-			`sickness` INTEGER NOT NULL DEFAULT '0',
-			`deaths` INTEGER NOT NULL DEFAULT '0',
-			`pkills` INTEGER NOT NULL DEFAULT '0',
-			`lastdeath` VARCHAR(256) NOT NULL DEFAULT '',
-			`lastnick` VARCHAR(256) NULL DEFAULT NULL
-		);
+			`id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+			`steamid` varchar(64) NOT NULL,
+			`gender` tinyint(1) unsigned NOT NULL,
+			`face` smallint(3) unsigned NOT NULL,
+			`hat` smallint(3) unsigned NOT NULL,
+			`clothes` smallint(3) unsigned NOT NULL,
+			`alive` tinyint(1) unsigned NOT NULL,
+			`health` smallint(4) unsigned NOT NULL,
+			`thirst` smallint(4) unsigned NOT NULL,
+			`hunger` smallint(4) unsigned NOT NULL,
+			`xpos` int(10) NOT NULL,
+			`ypos` int(10) NOT NULL,
+			`zpos` int(10) NOT NULL,
+			`mapindex` tinyint(3) unsigned NOT NULL,
+			`xp` smallint(4) unsigned NOT NULL,
+			`lvl` tinyint(3) unsigned NOT NULL,
+			`kills` smallint(3) unsigned NOT NULL,
+			`credits` int(10) unsigned NOT NULL,
+			`extraslots` tinyint(3) unsigned NOT NULL,
+			`realhealth` smallint(3) unsigned NOT NULL DEFAULT '100',
+			`bleeding` smallint(3) unsigned NOT NULL DEFAULT '0',
+			`sickness` smallint(3) unsigned NOT NULL DEFAULT '0',
+			`deaths` int(100) NOT NULL DEFAULT '0',
+			`pkills` int(100) NOT NULL DEFAULT '0',
+			PRIMARY KEY (`id`),
+			KEY `steamid` (`SteamID`)
+		)
+	DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
 	]]})
 
 	Msg("[PHDayZ] Creating table `players_bank`...\n")
 	PLib:RunPreparedQuery({ sql = [[
 		CREATE TABLE IF NOT EXISTS `players_bank` (
-			`id` INTEGER NOT NULL PRIMARY KEY ]]..ac..[[,
-			`user_id` INTEGER NOT NULL,
+			`id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+			`user_id` int(10) unsigned NOT NULL,
 			`item` text(64) NOT NULL,
-			`amount` BIGINT NOT NULL,
-			`quality` INTEGER NOT NULL DEFAULT '500',
-			`durability` INTEGER NOT NULL DEFAULT '1',
-			`foundtype` INTEGER NULL DEFAULT NULL,
-			`found_id` INTEGER NULL DEFAULT NULL,
-			`foundwhen` BIGINT NOT NULL DEFAULT '0'
-		);
+			`amount` int(100) unsigned NOT NULL,
+			`quality` int(11) NOT NULL DEFAULT '500',
+			`durability` int(11) NOT NULL DEFAULT '1',
+			PRIMARY KEY (`id`),
+			KEY `user_id` (`user_id`)
+		)
+	DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
 	]] })
 
 	Msg("[PHDayZ] Creating table `players_blueprints`...\n")
 	PLib:RunPreparedQuery({ sql = [[
 		CREATE TABLE IF NOT EXISTS `players_blueprints` (
-			`id` INTEGER NOT NULL PRIMARY KEY ]]..ac..[[,
-			`user_id` INTEGER NOT NULL,
-			`item` text(64) NOT NULL
-		);
+			`id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+			`user_id` int(10) unsigned NOT NULL,
+			`item` text(64) NOT NULL,
+			PRIMARY KEY (`id`),
+			KEY `user_id` (`user_id`)
+		)
+	DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
 	]] })
 
 	Msg("[PHDayZ] Creating table `players_character`...\n")
 	PLib:RunPreparedQuery({ sql = [[
 		CREATE TABLE IF NOT EXISTS `players_character` (
-			`id` INTEGER NOT NULL PRIMARY KEY ]]..ac..[[,
-			`user_id` INTEGER NOT NULL,
+			`id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+			`user_id` int(10) unsigned NOT NULL,
 			`item` text(64) NOT NULL,
-			`quality` INTEGER NOT NULL DEFAULT '500',
-			`durability` INTEGER NOT NULL DEFAULT '1',
-			`foundtype` INTEGER NULL DEFAULT NULL,
-			`found_id` INTEGER NULL DEFAULT NULL,
-			`foundwhen` BIGINT NOT NULL DEFAULT '0'
-		);
+			`quality` int(11) NOT NULL DEFAULT '500',
+			`durability` int(11) NOT NULL DEFAULT '1',
+			PRIMARY KEY (`id`),
+			KEY `user_id` (`user_id`)
+		)
+	DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
 	]] })
 	
 	Msg("[PHDayZ] Creating table `players_inventory`...\n")
 	PLib:RunPreparedQuery({ sql = [[
 		CREATE TABLE IF NOT EXISTS `players_inventory` (
-			`id`  INTEGER NOT NULL PRIMARY KEY ]]..ac..[[,
-			`user_id` INTEGER NOT NULL,
+			`id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+			`user_id` int(10) unsigned NOT NULL,
 			`item` text(64) NOT NULL,
-			`amount` INTEGER NOT NULL,
-			`quality` INTEGER NOT NULL DEFAULT '500',
-			`durability` INTEGER NOT NULL DEFAULT '1',
-			`foundtype` INTEGER NULL DEFAULT NULL,
-			`found_id` INTEGER NULL DEFAULT NULL,
-			`foundwhen` BIGINT NOT NULL DEFAULT '0'
-		);
+			`amount` int(100) unsigned NOT NULL,
+			`quality` int(11) NOT NULL DEFAULT '500',
+			`durability` int(11) NOT NULL DEFAULT '1',
+			PRIMARY KEY (`id`),
+			KEY `user_id` (`user_id`)
+		)
+	DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
 	]] })
 
 	Msg("[PHDayZ] Creating table `players_perks`...\n")
 	PLib:RunPreparedQuery({ sql = [[
 		CREATE TABLE IF NOT EXISTS `players_perks` (
-			`id` INTEGER NOT NULL PRIMARY KEY ]]..ac..[[,
-			`user_id` INTEGER NOT NULL,
-			`perk` text(64) NOT NULL
-		);
+			`id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+			`user_id` int(10) unsigned NOT NULL,
+			`perk` text(64) NOT NULL,
+			PRIMARY KEY (`id`)
+		)
+	DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
 	]] })
 
 	-- 5.0.2 update
 	Msg("[PHDayZ] Creating table `shop_inventory`...\n")
 	PLib:RunPreparedQuery({ sql = [[
 		CREATE TABLE IF NOT EXISTS `shop_inventory` (
-			`id`  INTEGER NOT NULL PRIMARY KEY ]]..ac..[[,
+			`id` int(10) unsigned NOT NULL AUTO_INCREMENT,
 			`item` varchar(64) NOT NULL,
-			`amount`  INTEGER NOT NULL
-		);
+			`amount` int(100) unsigned NOT NULL,
+			PRIMARY KEY (`id`),
+			KEY `item` (`item`)
+		)
+	DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
 	]] })
 
 	-- 6.2 skills
 	Msg("[PHDayZ] Creating table `player_skills`...\n")
 	PLib:RunPreparedQuery({ sql = [[
 		CREATE TABLE IF NOT EXISTS `player_skills` (
-		  `id` INTEGER NOT NULL PRIMARY KEY ]]..ac..[[,
-		  `user_id` INTEGER NOT NULL,
-		  `intel` INTEGER NOT NULL DEFAULT '0',
-		  `end` INTEGER NOT NULL DEFAULT '0',
-		  `dex` INTEGER NOT NULL DEFAULT '0',
-		  `str` INTEGER NOT NULL DEFAULT '0'
-		);
+		  `id` int(11) NOT NULL AUTO_INCREMENT,
+		  `user_id` int(11) NOT NULL,
+		  `intel` int(11) NOT NULL DEFAULT '0',
+		  `end` int(11) NOT NULL DEFAULT '0',
+		  `dex` int(11) NOT NULL DEFAULT '0',
+		  `str` int(11) NOT NULL DEFAULT '0',
+		  PRIMARY KEY (`id`)
+		) DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
 	]]})
 
-	Msg("[PHDayZ] "..string.upper(ac).." Initial Setup Complete!\n")
+	Msg("[PHDayZ] MySQL Initial Setup Complete!\n")
 	_DatabaseSetup = true -- Don't call this twice, relies on player data being in table, so a player must join otherwise this would be called multiple times.
 end
 
